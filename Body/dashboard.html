@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Dashboard | By Code Info</title>
+  <link rel="stylesheet" href="../Styles/dashboard.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <!-- custom css  -->
+  <link rel="stylesheet" href="../Styles/foodStyles.css">
+  <link href="../Styles/addMenu1.css" rel="stylesheet">
+  <!-- custom css file link -->
+	<link rel="stylesheet" type="text/css" href="../Styles/style.css">
+  <!-- bootstrap  -->
+  <link rel="stylesheet" href="../food-website/assets/css/bootstrap.min.css">
+ 
+</head>
+<body>
+  <div class="container">
+    
+    <section class="main">
+      
+
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Dashboard List</h1>
+          <table class="table" id="table11">
+            <thead>
+              <tr>
+                <th>Total Numbers Of Order</th>
+                <th>Total Sold Amount</th>
+                <th>Total Numbers of Staff</th>
+                <th>Total Numbers of Menu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="orderNumbers">01</td>
+                <td id="soldAmount">Sam David</td>
+                <td id="staffNumbers">Design</td>
+                <td id="menuNumbers">03-24-22</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+<section>
+        <div class="menu-list-row">
+          <div class="row g-xxl-5 bydefault_show" id="getAllTable">
+
+          </div> 
+        </div>
+</section>
+
+<!--Script modules-->
+<script type="module" src="../Script/database.js"></script>
+
+<script type="module" src="../Script/dashboard.js"></script>
+
+<script type="module" src="../Script/viewTable.js"></script>
+
+<script type="module" src="../Script/restaurant.js"></script>
+
+</body>
+</html>
